@@ -22,12 +22,12 @@
 
         <TextView
             android:id="@+id/tvmensaje1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="Viajes XYZ"
-            android:textSize="35dp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -53,24 +53,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:checked="true"
-                android:text="  Cartagena"
-                android:textSize="30dp"
+                android:text="Cartagena"
+                android:textSize="30sp"
                 android:onClick="Cartagena" />
 
             <RadioButton
                 android:id="@+id/rbAmazonas"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="  Amazonas"
-                android:textSize="30dp"
+                android:text="Amazonas"
+                android:textSize="30sp"
                 android:onClick="Amazonas" />
 
             <RadioButton
                 android:id="@+id/rbMiami"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="  Miami"
-                android:textSize="30dp"
+                android:text="Miami"
+                android:textSize="30sp"
                 android:onClick="Miami" />
         </RadioGroup>
     </LinearLayout>
@@ -91,12 +91,12 @@
 
         <TextView
             android:id="@+id/tvCiudad"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="1500000"
-            android:textSize="35dp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -115,14 +115,14 @@
 
         <EditText
             android:id="@+id/etCantidad"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
             android:gravity="center"
-            android:hint="Digite cantidad de personas"
+            android:hint="Cantidad de personas"
             android:inputType="number"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -141,12 +141,12 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:text="Opcionales"
-            android:textSize="35dp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -169,7 +169,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Transporte"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:onClick="Transporte" />
 
         <TextView
@@ -179,7 +179,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
-            android:textSize="35dp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -202,7 +202,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Guia"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:onClick="Guia" />
 
         <TextView
@@ -212,7 +212,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="0"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -231,12 +231,12 @@
 
         <TextView
             android:id="@+id/tvTotal"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="0"
             android:gravity="center"
-            android:textSize="35dp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -257,8 +257,8 @@
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Calcular"
-            android:textSize="28dp"
+            android:text="calcular"
+            android:textSize="28sp"
             android:onClick="calc" />
 
         <Button
@@ -266,8 +266,9 @@
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Limpiar"
-            android:textSize="28dp"/>
+            android:text="limpiar"
+            android:textSize="28sp"
+            android:onClick="limpiar" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
